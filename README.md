@@ -43,7 +43,7 @@ ctest --output-on-failure
 - `tests/`: Unit tests for the instruction, DAG builder, and scheduler components.
 - `CMakeLists.txt`: The build configuration file.
 - `report.pdf`: My detailed analysis and results of the scheduling process (comparing original vs. scheduled orders).
-- `submission.py`: A Python script to generate the final .zip submission package (for course grading).
+- `csc3060_spring2026_project3_cs.pdf`: Official assignment requirements and specifications.
 
 ## 📊 Results Analysis (from Report)
 The scheduler demonstrates significant performance improvements in scenarios with load-use hazards and long-latency instructions:
@@ -57,3 +57,6 @@ As required by the course policy (6.3), I utilized AI tools (like Copilot and LL
 - Translating and polishing the written report.
 
 Links to LLM conversations are included in the final report submission.
+
+## 📄 License
+This project is open-sourced under the MIT License — you can freely use, modify and distribute it with copyright notice.
