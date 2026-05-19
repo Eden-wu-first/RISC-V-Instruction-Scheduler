@@ -17,25 +17,28 @@ For a full description of the project, see the project handout at [csc3060_sprin
 *   **Tie-Breaking Policies**: Supports `SMALLER_INDEX` (default), `MOST_CHILD` (unblocks more instructions), and `LPT` (Longest Processing Time) policies.
 *   **Bonus Optimization (`scheduleFast`)**: An optimized version using `std::priority_queue` that significantly outperforms the naive O(n²) approach by achieving **O(n log n)** complexity.
 
-## 🛠️ Build & Test Instructions
+## 🛠️ Setup
 
-### Build
-```bash
-mkdir build && cd build
+### Environment
+
+- CMake 3.14 or higher version
+- Compiler should support C++17 (GCC 7+, Clang 5+, MSVC 2017+)
+
+```sh
+mkdir build
+cd build
 cmake ..
 make -j4
 ```
 
-### Run
-After building, you can run the scheduler on the example RISC-V code blocks:
-```bash
-./scheduler
-```
+### Run unit tests
 
-### Test
-This project uses CTest (based on Google Test) for unit testing. To verify the correctness of the implementation:
-```bash
-ctest --output-on-failure
+```sh
+cd build
+ctest                        # run all test
+ctest -R Latency             # pattern matching "Latency"
+ctest -V                     # verbose output
+ctest -j4                    # parallel execution
 ```
 
 ## 📂 Project Structure
