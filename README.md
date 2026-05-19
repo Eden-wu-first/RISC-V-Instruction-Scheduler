@@ -1,7 +1,11 @@
 # RISC-V Instruction List Scheduler (CSC3060 - Spring 2026)
 
 ## 📖 Project Overview
+This is a course project for **CSC3060: Introduction to Computer Systems** at **CUHK-Shenzhen**. Please do not submit it as your own assignment.
+
 This project implements a **List Scheduling** algorithm for RISC-V assembly code. The goal is to reorder instructions to minimize pipeline stalls by understanding data dependencies (RAW, WAR, WAW) and instruction latencies. It is built upon a minimal C++ framework provided by the course.
+
+For a full description of the project, see the project handout at [csc3060_spring2026_project3_cs.pdf](./csc3060_spring2026_project3_cs.pdf)
 
 ## 🚀 Key Features
 
