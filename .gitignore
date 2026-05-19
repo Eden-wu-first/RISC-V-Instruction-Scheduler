@@ -1,0 +1,23 @@
+# ======================================
+# Build Directory
+# ======================================
+# Ignore the CMake build output directory
+build/
+
+# ======================================
+# Generated Submission Files
+# ======================================
+# Ignore zip files created for submission
+*.zip
+
+# ======================================
+# IDE / OS / Editor Artifacts
+# ======================================
+# Ignore OS metadata
+.DS_Store
+# Ignore editor folders and temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
